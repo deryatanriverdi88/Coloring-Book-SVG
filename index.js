@@ -12,5 +12,5 @@ drawing.addEventListener('click', function(event){
 })
 
 button.addEventListener('click', function(){
-	location.reload("true")
+	location.reload(true)
 })
