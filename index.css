@@ -1,0 +1,22 @@
+body{
+	text-align: center;
+}
+
+#select-color{
+	border-radius: 10px;
+}
+
+label{
+	font-family: 'Righteous', cursive;
+}
+
+svg{
+	background: #bfe6e5;
+	stroke-width: .2;
+	stroke: black;
+	fill: #fff;
+}
+
+.shadow{
+	filter:url(#shadow);
+}
