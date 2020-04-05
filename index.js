@@ -10,3 +10,7 @@ selectColor.addEventListener('change', function(event){
 drawing.addEventListener('click', function(event){
     event.target.style.fill = color;
 })
+
+button.addEventListener('click', function(){
+	location.reload("true")
+})
