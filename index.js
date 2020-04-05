@@ -6,3 +6,7 @@ let color = selectColor.value
 selectColor.addEventListener('change', function(event){
     color = event.target.value
 })
+
+drawing.addEventListener('click', function(event){
+    event.target.style.fill = color;
+})
